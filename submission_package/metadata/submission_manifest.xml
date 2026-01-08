@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SubmissionManifest xmlns="urn:ecb:iref:submission:manifest:v1">
+    <SubmissionID>PoC_IReF</SubmissionID>
+    <SubmissionDate>2025-11-01</SubmissionDate>
+    <SubmittingEntity>
+        <EntityID>LEI N/A</EntityID>
+        <EntityName>UAb - MEIW</EntityName>
+        <Contact>
+            <Name>Marco Clara</Name>
+            marco.clara@gmail.com
+        </Contact>
+    </SubmittingEntity>
+    <ReportingPeriod>
+        <StartDate>2018-09-01</StartDate>
+        <EndDate>2018-12-31</EndDate>
+    </ReportingPeriod>
+    <PackageContents>
+        <!-- Notes the BIRD version and transformation rule set used -->
+        <FileName>version_info.txt</FileName>
+            <FileType>TXT</FileType>
+            <Checksum algorithm="SHA256">456ghi321jkl...</Checksum>
+
+        <!-- All six ROL CSV files generated from PostgreSQL views -->
+        <FileName>ROL_Counterparty.csv</FileName>
+            <FileType>CSV</FileType>
+            <Checksum algorithm="SHA256">abc123def456...</Checksum>
+        <FileName>ROL_Instrument.csv</FileName>
+            <FileType>CSV</FileType>
+            <Checksum algorithm="SHA256">abc123def456...</Checksum>
+        <FileName>ROL_Contract.csv</FileName>
+            <FileType>CSV</FileType>
+            <Checksum algorithm="SHA256">abc123def456...</Checksum>
+        <FileName>ROL_Protection.csv</FileName>
+            <FileType>CSV</FileType>
+            <Checksum algorithm="SHA256">abc123def456...</Checksum>
+        <FileName>ROL_InterestRateTerms.csv</FileName>
+            <FileType>CSV</FileType>
+            <Checksum algorithm="SHA256">abc123def456...</Checksum>
+        <FileName>ROL_Accounting.csv</FileName>
+            <FileType>CSV</FileType>
+            <Checksum algorithm="SHA256">abc123def456...</Checksum>
+
+        <!-- Output summary of validation results (e.g. “All files passed”, or list of errors) -->
+        <FileName>validation_report.txt</FileName>
+            <FileType>TXT</FileType>
+            <Checksum algorithm="SHA256">789xyz654mno...</Checksum>
+        <!-- Full Python script built with ECB code list integration -->
+        <FileName>validation_script.py</FileName>
+            <FileType>PY</FileType>
+            <Checksum algorithm="SHA256">789xyz654mno...</Checksum>
+
+        <!-- IL to EIL to ROL mapping table -->
+        <FileName>mapping_table.xlsx</FileName>
+            <FileType>XLSX</FileType>
+            <Checksum algorithm="SHA256">789xyz654mno...</Checksum>
+        <!-- Summary of transformation logic applied -->
+        <FileName>transformation_rules.pdf</FileName>
+            <FileType>PDF</FileType>
+            <Checksum algorithm="SHA256">789xyz654mno...</Checksum>
+        <!-- Markdown or word document describing validation and submission process -->
+        <FileName>thesis_methodology_section.md</FileName>
+            <FileType>MD</FileType>
+            <Checksum algorithm="SHA256">789xyz654mno...</Checksum>
+
+    </PackageContents>
+    <SchemaVersion>IReF-v2025.3</SchemaVersion>
+    <Comments>Initial submission for PoC IReF Package.</Comments>
+</SubmissionManifest>

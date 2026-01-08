@@ -1,0 +1,12 @@
+{
+  "table": {
+    "columns": [
+      { "name": "instrumentidentifier", "concept": "ana:InstrumentIdentifier" },
+      { "name": "instrumenttype", "concept": "ana:InstrumentType" },
+      { "name": "currency", "concept": "ana:CurrencyCode" },
+      { "name": "maturitydate", "concept": "ana:MaturityDate" },
+      { "name": "remainingmaturity", "concept": "ana:RemainingMaturity" }
+    ],
+    "file": "anacredit_sim/output/csv/rol/ROL_Instrument.csv"
+  }
+}

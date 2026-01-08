@@ -1,0 +1,12 @@
+{
+  "table": {
+    "columns": [
+      { "name": "ratetermidentifier", "concept": "ana:RateTermIdentifier" },
+      { "name": "instrumentidentifier", "concept": "ana:InstrumentIdentifier" },
+      { "name": "ratetype", "concept": "ana:RateType" },
+      { "name": "referencerate", "concept": "ana:ReferenceRate" },
+      { "name": "spread", "concept": "ana:Spread" }
+    ],
+    "file": "anacredit_ecb/output/csv/rol/ROL_InterestRateTerms.csv"
+  }
+}

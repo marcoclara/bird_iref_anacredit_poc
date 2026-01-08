@@ -1,0 +1,12 @@
+{
+  "table": {
+    "columns": [
+      { "name": "contractidentifier", "concept": "ana:ContractIdentifier" },
+      { "name": "counterpartyidentifier", "concept": "ana:CounterpartyIdentifier" },
+      { "name": "instrumentidentifier", "concept": "ana:InstrumentIdentifier" },
+      { "name": "contractdate", "concept": "ana:ContractDate" },
+      { "name": "contractstatus", "concept": "ana:ContractStatus" }
+    ],
+    "file": "anacredit_sim/output/csv/rol/ROL_Contract.csv"
+  }
+}

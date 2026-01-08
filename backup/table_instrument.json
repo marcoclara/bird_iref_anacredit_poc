@@ -1,0 +1,12 @@
+{
+  "table": {
+    "columns": [
+      { "name": "InstrumentIdentifier", "concept": "ana:InstrumentIdentifier" },
+      { "name": "InstrumentType", "concept": "ana:InstrumentType" },
+      { "name": "Currency", "concept": "ana:CurrencyCode" },
+      { "name": "MaturityDate", "concept": "ana:MaturityDate" },
+      { "name": "RemainingMaturity", "concept": "ana:RemainingMaturity" }
+    ],
+    "file": "ROL_Instrument.csv"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "documentInfo": {
+    "documentType": "xbrl-csv",
+    "taxonomy": "https://www.ecb.europa.eu/bird/anacredit-taxonomy",
+    "reportingEntity": "BANK123456",
+    "reportingPeriod": "2025-09-30",
+    "language": "en"
+  },
+  "tables": [
+    "tablecounterparty.json",
+    "tableinstrument.json",
+    "tablecontract.json",
+    "tableprotection.json",
+    "tableinterestrateterms.json",
+    "tableaccounting.json"
+  ]
+}

@@ -1,0 +1,4 @@
+contractidentifier,counterpartyidentifier,instrumentidentifier,contractdate,contractstatus
+A810_Creditor,BLZ10,123321,2017-11-16,Performing
+A810_Debtor,63829150,123321,2017-11-16,Performing
+A810_Servicer,BLZ10,123321,2017-11-16,Performing

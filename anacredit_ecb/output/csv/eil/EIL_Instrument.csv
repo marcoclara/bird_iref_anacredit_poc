@@ -1,0 +1,2 @@
+instrumentidentifier,instrumenttype,currency,maturitydate,interestratetype,referencerate,spread,remainingmaturity
+123321,Other loans,EUR,2022-12-01,Variable,EURIBOR - Twelve months,0.024,-1060

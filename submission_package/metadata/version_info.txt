@@ -1,0 +1,35 @@
+
+# version_info.txt
+# Metadata for PoC IReF Submission Package
+
+Submission_Name: PoC_IReF_Reporting_Package
+Version: 1.0.0
+Release_Date: 2025-11-01
+Author: Marco Clara
+Organisation: UAb - MEIW
+Contact_Email: marco.clara@gmail.com
+
+Description: 
+This submission package contains a PoC mocked IReF reporting data. 
+It includes validated datasets, transformation scripts, and mapping documentation 
+aligned with the BIRD data model and IReF reporting framework.
+
+Components:
+- ROL_Counterparty.csv
+- ROL_Instrument.csv
+- ROL_Contract.csv
+- ROL_Protection.csv
+- ROL_InterestRateTerms.csv
+- ROL_Accounting.csv
+- validation_report.txt
+- validation_script.py
+- mapping_table.xlsx
+- transformation_rules.pdf
+- thesis_methodology_section.md
+
+Change_Log:
+- Initial release of the PoC IReF submission package.
+- Includes full mapping to BIRD v3.1 and IReF schema v2025.3.
+
+Checksum:
+- SHA256: [checksum of the zipped package or key files]

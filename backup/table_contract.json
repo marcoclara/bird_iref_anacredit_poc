@@ -1,0 +1,12 @@
+{
+  "table": {
+    "columns": [
+      { "name": "ContractIdentifier", "concept": "ana:ContractIdentifier" },
+      { "name": "CounterpartyIdentifier", "concept": "ana:CounterpartyIdentifier" },
+      { "name": "InstrumentIdentifier", "concept": "ana:InstrumentIdentifier" },
+      { "name": "ContractDate", "concept": "ana:ContractDate" },
+      { "name": "ContractStatus", "concept": "ana:ContractStatus" }
+    ],
+    "file": "ROL_Contract.csv"
+  }
+}

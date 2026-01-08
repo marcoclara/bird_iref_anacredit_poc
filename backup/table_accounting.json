@@ -1,0 +1,13 @@
+{
+  "table": {
+    "columns": [
+      { "name": "AccountingIdentifier", "concept": "ana:AccountingIdentifier" },
+      { "name": "ContractIdentifier", "concept": "ana:ContractIdentifier" },
+      { "name": "AmountOutstanding", "concept": "ana:AmountOutstanding" },
+      { "name": "AmountInArrears", "concept": "ana:AmountInArrears" },
+      { "name": "ProvisionAmount", "concept": "ana:ProvisionAmount" },
+      { "name": "WriteOffAmount", "concept": "ana:WriteOffAmount" }
+    ],
+    "file": "ROL_Accounting.csv"
+  }
+}

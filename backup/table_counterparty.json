@@ -1,0 +1,12 @@
+{
+  "table": {
+    "columns": [
+      { "name": "CounterpartyIdentifier", "concept": "ana:CounterpartyIdentifier" },
+      { "name": "LEI", "concept": "ana:LegalEntityIdentifier" },
+      { "name": "SectorCode", "concept": "ana:SectorCode" },
+      { "name": "ResidencyCountry", "concept": "ana:ResidencyCountryCode" },
+      { "name": "NACECode", "concept": "ana:NACECode" }
+    ],
+    "file": "ROL_Counterparty.csv"
+  }
+}

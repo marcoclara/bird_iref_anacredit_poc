@@ -1,0 +1,12 @@
+{
+  "table": {
+    "columns": [
+      { "name": "RateTermIdentifier", "concept": "ana:RateTermIdentifier" },
+      { "name": "InstrumentIdentifier", "concept": "ana:InstrumentIdentifier" },
+      { "name": "RateType", "concept": "ana:RateType" },
+      { "name": "ReferenceRate", "concept": "ana:ReferenceRate" },
+      { "name": "Spread", "concept": "ana:Spread" }
+    ],
+    "file": "ROL_InterestRateTerms.csv"
+  }
+}

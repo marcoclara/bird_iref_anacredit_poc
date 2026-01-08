@@ -1,0 +1,11 @@
+{
+  "table": {
+    "columns": [
+      { "name": "protectionidentifier", "concept": "ana:ProtectionIdentifier" },
+      { "name": "contractidentifier", "concept": "ana:ContractIdentifier" },
+      { "name": "protectiontype", "concept": "ana:ProtectionType" },
+      { "name": "protectionamount", "concept": "ana:ProtectionAmount" }
+    ],
+    "file": "anacredit_ecb/output/csv/rol/ROL_Protection.csv"
+  }
+}
